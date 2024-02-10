@@ -31,8 +31,8 @@ form.addEventListener('submit', function (event) {
 
   // Отримуємо поточні значення полів
   let formData = {
-    email: emailInput.value,
-    message: messageInput.value,
+    email: emailInput.value.trim(),
+    message: messageInput.value.trim(),
   };
 
   // Виводимо дані у консоль
